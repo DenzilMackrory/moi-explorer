@@ -23,6 +23,7 @@ To embed it on the school website, link to that address or place it in an iframe
 ## Updating it
 
 - **Text, summaries or titles:** edit `index.html`. The element data is the `ELEMENTS` list near the top of the script.
+- **Teams links:** near the top of the script in `index.html`, put your Teams folder link in `RESOURCES_DEFAULT` to use it for every element, or add element-specific links to `RESOURCES`, for example `"6.2": "https://..."`. Elements without a link show "Teams resources coming soon".
 - **A new version of the reference guide:** replace the matching image in `pages/`, keeping the same file name (for example `p54.webp` for page 54).
 
 The page loads the Big Shoulders Display and Nunito Sans fonts from Google Fonts. Everything else is in this folder.
